@@ -23,6 +23,6 @@ This project recreates the timeless arcade game, Pong, using Python's Turtle mod
 
 To run this game, you need to have Python installed on your machine. Here's how to set it up:
 
-1. **Clone the repository:**
+1. **Play the game:**
    ```bash
    python game.py
