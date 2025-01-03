@@ -16,7 +16,7 @@ This project recreates the timeless arcade game, Pong, using Python's Turtle mod
 
 - **Two Player Mode**: Play against a friend on the same keyboard.
 - **Score Tracking**: Keeps track of scores for both players.
-- **Sound Effects**: Basic sounds for paddle hits and scoring (if implemented).
+
 - **Customizable**: Adjust game speed, paddle size, or screen dimensions.
 
 ## Installation
