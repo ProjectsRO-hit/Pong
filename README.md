@@ -25,4 +25,4 @@ To run this game, you need to have Python installed on your machine. Here's how 
 
 1. **Clone the repository:**
    ```bash
-   python main.py
+   python game.py
