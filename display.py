@@ -2,11 +2,10 @@ from turtle import Screen, Turtle
 
 class Display:
     def __init__(self):
-        self.screen = None
+        self.screen = Screen()
         self.divider = Turtle()
 
     def make_screen(self):
-        self.screen = Screen()
         self.screen.title("Pong")
         self.screen.bgcolor("black")
         self.screen.setup(width=800, height=600)

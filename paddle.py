@@ -10,4 +10,12 @@ class Paddle:
         self.paddle.color("white")
         self.paddle.shapesize(stretch_wid=5, stretch_len=1)
         self.paddle.penup()
-        self.paddle.goto(-350, 0)
+        self.paddle.goto(350, 0)
+
+    def move_up(self):
+        new_y = self.paddle.ycor() + 20
+        self.paddle.goto(self.paddle.xcor(), new_y)
+
+    def move_down(self):
+        new_y = self.paddle.ycor() - 20
+        self.paddle.goto(self.paddle.xcor(), new_y)
